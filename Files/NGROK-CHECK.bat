@@ -11,7 +11,7 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Admin01234
 curl -O https://raw.githubusercontent.com/rezam5n/rdp-trial/main/Files/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/rezam5n/rdp-trial/main/Files/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\FastConfigVPS_v5.1.exe" https://raw.githubusercontent.com/rezam5n/rdp-trial/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Downloads\hitomi.zip" https://github.com/KurtBestor/Hitomi-Downloader/releases/download/v3.7p/hitomi_downloader_GUI.zip > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\idm6.40.11.exe" https://raw.githubusercontent.com/94maldini/file/main/idm6.40.11.exe > out.txt 2>&1
 FOR %%i IN ("C:\Users\Public\Desktop\idm*.exe") DO Set FileName="%%i" /S /EN
